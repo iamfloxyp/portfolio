@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #101630;
+}
+header{
+    height: 100px;
+    margin: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-family: "Roboto condensed serif", 'sanserif';
+    font-size: 20px;
+    color: #519ad1;
+}
+
+.logo h1{
+    position: relative;
+}
+.logo span{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    gap: 10rem;
+    
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+    font-size: 16px; 
+    margin-top: 13px;
+    font-family: "montserrat", "san-serif";
+    color: rgb(167, 165, 165);
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(167, 165, 165);
+}
+
+li{
+    list-style: none;
+}
+li:hover{
+    color: #519ad1;
+}
+#menu-icon{
+    visibility: hidden;
+    color: rgb(167, 165, 165);
+    font-size: 35px;
+}
+
+ #close-icon{
+    visibility: hidden;
+    color: rgb(167, 165, 165);
+    font-size: 35px;
+ }
+.contact{
+    height: 40px;
+    width: 130px;
+    position: relative;
+    bottom: 0.8rem;
+    left: 1rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+}
+
+/* media query */
+@media (min-width:340px) and (max-width: 500px){
+    header{
+        height: 100px;
+        margin: 20px 60px;
+        display: flex;
+
+    }
+    .logo{
+        font-family: "Roboto condensed serif", 'sanserif';
+        font-size: 20px;
+        color: #519ad1;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #101630;
+        padding: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+   
+    #menu-icon{
+        visibility: visible;
+        color:  rgb(167, 165, 165);
+        position: absolute;
+        top: 20px;
+        right: 3rem;
+    }
+       
+    #close-icon{
+        visibility: hidden;
+    }
+    .contact{
+        left: 100px;
+        font-size: 12px;
+        width: 110px;
+        height: 35px;
+    }
+
+}
+@media (min-width:501px) and (max-width: 700px){
+    header{
+        height: 100px;
+        margin: 20px 60px;
+        display: flex;
+
+    }
+    .logo{
+        font-family: "Roboto condensed serif", 'sanserif';
+        font-size: 35px;
+        color: #519ad1;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #101630;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+   
+    #menu-icon{
+        visibility: visible;
+        color:  rgb(167, 165, 165);
+        position: absolute;
+        top: 20px;
+        right: 3rem;
+        font-size: 50px;
+    }
+       
+    #close-icon{
+        visibility: hidden;
+        position: relative;
+        font-size: 50px;
+    }
+    .contact{
+        left: 200px;
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+
+}
+@media(min-width:701px) and (max-width:1000px){
+    header{
+        height: 100px;
+        margin: 10px 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        font-family: "Roboto condensed serif", 'sanserif';
+        font-size: 20px;
+        color: #519ad1;
+        position: relative;
+        right: 0.5rem;
+    }
+    
+    .logo h1{
+        position: relative;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    nav{
+        display: flex;
+        gap: 3rem;
+        position: relative;
+        right: 1rem;
+    }
+    
+    ul{
+        display: flex;
+        gap: 35px;
+        text-transform: uppercase;
+        font-size: 12px; 
+        margin-top: 13px;
+        font-family: "montserrat", "san-serif";
+        color: rgb(167, 165, 165);
+        list-style: none;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(167, 165, 165);
+    }
+    
+    li{
+        list-style: none;
+    }
+    li:hover{
+        color: #519ad1;
+    }
+    
+    .contact{
+        height: 30px;
+        width: 100px;
+        position: relative;
+        bottom: 0.4rem;
+        left: 1rem;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+        border: none;
+    }
+    
+}
