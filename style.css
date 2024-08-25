@@ -5,6 +5,7 @@
 }
 body{
     background: #101630;
+    width: 100%;
 }
 header{
     height: 100px;
@@ -49,19 +50,23 @@ a{
 li{
     list-style: none;
 }
-li:hover{
+a:hover{
     color: #519ad1;
 }
 #menu-icon{
     visibility: hidden;
     color: rgb(167, 165, 165);
     font-size: 35px;
+    position: relative;
+    top: 5px;
+    left: 20rem;
 }
 
  #close-icon{
     visibility: hidden;
     color: rgb(167, 165, 165);
     font-size: 35px;
+
  }
 .contact{
     height: 40px;
@@ -74,7 +79,110 @@ li:hover{
     border-radius: 5px;
     background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
     border: none;
+    cursor: pointer; 
 }
+/* section Title */
+.title {
+    margin: 30px 60px;
+    font-family: "Montserrat", "san-serif";  
+}
+.title h4{
+    color: #939394;
+    font-size: 20px;
+}
+.title h1{
+    text-transform: uppercase;
+    margin: 15px 25px;
+    font-size: 40px;
+    line-height: 30px;
+    color: #fff;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    position: relative;
+    left: 17.8rem;
+    bottom:1.3rem;
+    background:#519ad1 ;
+}
+.title button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    top: 0.1rem;
+    left: 1rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
+    
+}
+/* about me */
+.about{
+    margin: 200px 80px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.picture{
+    display: flex;
+}
+.border-picture{
+    height: 450px;
+    width: 370px;
+    border: 6px solid #519ad1;
+    position: relative;
+    left: 3rem;
+    
+}
+.about img{
+    height: 450px;
+    width: 360px;
+    position: relative;
+    bottom: 20px;
+    right: 21rem;
+}
+.about-text{
+    font-family: "Roboto condensed serif", "san-serif";
+    position: relative;
+    top: 3rem;
+    right: 13rem;
+
+}
+.about-text h2{
+    position: relative;
+    bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.about-text p{
+    width: 150%;
+    font-size: 19px;
+    line-height: 26px;
+    color: #939394;
+
+}
+
+.about button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    top: 2rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
+    
+}
+
+
 
 /* media query */
 @media (min-width:340px) and (max-width: 500px){
@@ -95,31 +203,138 @@ li:hover{
         gap: 20px;
         position: absolute;
         top: 60px;
-        left: 0;
+        left: 2rem;
         right: 0;
-        background-color: #101630;
+        background-color: #fff;
         padding: 20px;
         text-align: center;
-        font-size: 13px;
+        font-size: 15px;
+        width: 300px;
+        height: 300px;
+        z-index: 1;
     }
+    
    
     #menu-icon{
         visibility: visible;
         color:  rgb(167, 165, 165);
-        position: absolute;
-        top: 20px;
-        right: 3rem;
+        position: relative;
+        top: 5px;
+        left: 6rem;
     }
        
     #close-icon{
         visibility: hidden;
+        
     }
     .contact{
-        left: 100px;
+        left: 70px;
         font-size: 12px;
-        width: 110px;
+        width: 130px;
         height: 35px;
     }
+    /* section Title */
+.title {
+    margin: 30px 40px;  
+}
+.title h4{
+    color: #939394;
+    font-size: 20px;
+}
+.title h1{
+    text-transform: uppercase;
+    margin: 8px 25px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    position: relative;
+    left: 13.6rem;
+    bottom:1.2rem;
+    background:#519ad1 ;
+}
+.title button{
+    height: 40px;
+    width: 180px;
+    position: relative;
+    top: 0.1rem;
+    left: 1rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+}
+/* about me */
+.about{
+    margin: 200px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+}
+.border-picture{
+    height: 400px;
+    width: 300px;
+    border: 6px solid #519ad1;
+    position: relative;
+    left: -2.5rem;
+    bottom: 2rem;
+    
+}
+.about img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 28rem;
+    right: 4rem;
+}
+.about-text{
+    font-family: "Roboto condensed serif", "san-serif";
+    position: absolute;
+    left: 2rem;
+    top: 65rem;
+    width: 100%;
+}
+.about-text h2{
+    position: relative;
+    bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    left: 4rem;
+}
+.about-text p{
+    width: 80%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #939394;
+    position: relative;
+    left: 1rem;
+
+}
+
+.about button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    top: 2rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    left: 3rem;
+    
+}
 
 }
 @media (min-width:501px) and (max-width: 700px){
@@ -140,20 +355,23 @@ li:hover{
         gap: 20px;
         position: absolute;
         top: 60px;
-        left: 0;
+        left: 2rem;
         right: 0;
-        background-color: #101630;
+        background-color: white;
         padding: 20px;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
+        z-index: 1;
+        height: 350px;
+
     }
    
     #menu-icon{
         visibility: visible;
         color:  rgb(167, 165, 165);
-        position: absolute;
+        position: relative;
         top: 20px;
-        right: 3rem;
+        left: 15rem;
         font-size: 50px;
     }
        
@@ -163,11 +381,90 @@ li:hover{
         font-size: 50px;
     }
     .contact{
-        left: 200px;
+        left: 150px;
         font-size: 20px;
-        width: 150px;
+        width: 180px;
         height: 50px;
     }
+    .title button{
+        height: 45px;
+        width: 180px;
+        position: relative;
+        top: 0.1rem;
+        left: -1rem;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+        border: none;
+        cursor: pointer; 
+    }
+    /* about me */
+.about{
+    margin: 200px 180px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+}
+.border-picture{
+    height: 400px;
+    width: 300px;
+    border: 6px solid #519ad1;
+    position: relative;
+    left: -2.5rem;
+    bottom: 2rem;
+    
+}
+.about img{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    bottom: 28rem;
+    right: 4rem;
+}
+.about-text{
+    font-family: "Roboto condensed serif", "san-serif";
+    position: absolute;
+    left: 5rem;
+    top: 65rem;
+    width: 100%;
+}
+.about-text h2{
+    position: relative;
+    bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    left: 7rem;
+}
+.about-text p{
+    width: 80%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #939394;
+    position: relative;
+    left: 0.2rem;
+
+}
+
+.about button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    top: 2rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    left: 7rem;
+    
+}
 
 }
 @media(min-width:701px) and (max-width:1000px){
@@ -233,5 +530,69 @@ li:hover{
         background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
         border: none;
     }
+    /* about me */
+.about{
+    margin: 200px 40px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.picture{
+    display: flex;
+    position: relative;
+    right: 2rem;
+}
+.border-picture{
+    height: 450px;
+    width: 370px;
+    border: 6px solid #519ad1;
+    position: relative;
+    left: 3rem;
+    
+}
+.about img{
+    height: 450px;
+    width: 360px;
+    position: relative;
+    bottom: 20px;
+    right: 21rem;
+}
+.about-text{
+    font-family: "Roboto condensed serif", "san-serif";
+    position: relative;
+    top: 2rem;
+    right: 19.5rem;
+
+}
+.about-text h2{
+    position: relative;
+    bottom: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.about-text p{
+    width: 180%;
+    font-size: 16px;
+    line-height: 21px;
+    color: #939394;
+
+}
+
+.about button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    top: 2rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    
+}
+
+
     
 }
