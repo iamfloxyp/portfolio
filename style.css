@@ -181,9 +181,113 @@ a:hover{
     color:  rgb(167, 165, 165);
     
 }
+.about span{
+    font-weight: 800;
+}
+
+/* Project section */
+
+.projects {
+    position: relative;
+    top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.projects h1 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.each-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.proj {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.proj-text {
+    /* flex: 1; */
+    width: 45%;
+    padding:2rem ;
+    /* box-sizing: border-box; */
+}
 
 
+.proj h2 {
+    text-transform: uppercase;
+    color: #519ad1;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
 
+.proj h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+
+.proj p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #939394;
+    margin-bottom: 2rem;
+}
+
+.proj-picture {
+    /* display: flex; */
+   position: relative;
+   left: 3rem;
+   width: 55%;
+}
+
+.projborder-picture {
+    
+        height: 450px;
+        width: 450px;
+        border: 6px solid #519ad1;
+        position: relative;
+        left: 3rem;
+        
+    
+}
+
+.proj-picture img {
+    height: 450px;
+    position: absolute;
+    width: 450px;
+    bottom: 30px;
+    left: 1.5rem;
+}
+.proj button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
+    
+}
+.proj button a{
+    text-decoration: none;
+}
 /* media query */
 @media (min-width:340px) and (max-width: 500px){
     header{
@@ -336,6 +440,109 @@ a:hover{
     
 }
 
+/* Project section */
+
+.projects {
+    position: relative;
+    top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.projects h1 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.each-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.proj-text {
+    /* flex: 1; */
+    width: 100%;
+    padding:2rem ;
+    /* box-sizing: border-box; */
+}
+
+
+.proj h2 {
+    text-transform: uppercase;
+    color: #519ad1;
+    font-size: 22px;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 4rem;
+}
+
+.proj h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.proj p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #939394;
+    margin-bottom: 2rem;
+}
+
+.proj-picture {
+    /* display: flex; */
+   position: relative;
+   left: -1.5rem;
+   width: 100%;
+}
+
+.projborder-picture {
+    
+        height: 350px;
+        width: 300px;
+        border: 6px solid #519ad1;
+        position: relative;
+        left: 3rem;
+        
+    
+}
+
+.proj-picture img {
+    height: 350px;
+    position: absolute;
+    width: 300px;
+    bottom: 30px;
+    left: 1.5rem;
+}
+.proj button{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
+    
+}
+
 }
 @media (min-width:501px) and (max-width: 700px){
     header{
@@ -465,6 +672,113 @@ a:hover{
     left: 7rem;
     
 }
+/* Project section */
+
+.projects {
+    position: relative;
+    top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.projects h1 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.each-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 100%;
+    position: relative;
+    top: 1rem;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.proj-text {
+    /* flex: 1; */
+    width: 100%;
+    padding:2rem ;
+    /* box-sizing: border-box; */
+}
+
+
+.proj h2 {
+    text-transform: uppercase;
+    color: #519ad1;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 10rem;
+}
+
+.proj h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    left: 8rem;
+}
+
+.proj p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #939394;
+    position: relative;
+    left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.proj-picture {
+    /* display: flex; */
+   position: relative;
+   left: 1rem;
+   width: 100%;
+}
+
+.projborder-picture {
+    
+        height: 450px;
+        width: 450px;
+        border: 6px solid #519ad1;
+        position: relative;
+        left: 3rem;
+        
+    
+}
+
+.proj-picture img {
+    height: 450px;
+    position: absolute;
+    width: 450px;
+    bottom: 30px;
+    left: 1.5rem;
+}
+.proj button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
+    left: 3rem;
+    
+}
 
 }
 @media(min-width:701px) and (max-width:1000px){
@@ -590,6 +904,106 @@ a:hover{
     background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
     border: none;
     cursor: pointer; 
+    
+}
+/* Project section */
+
+.projects {
+    position: relative;
+    top: 2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.projects h1 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.each-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 100%;
+    position: relative;
+    top: 3rem;
+}
+
+.proj {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.proj-text {
+    
+    width: 50%;
+    padding:2rem ;
+   
+}
+
+
+.proj h2 {
+    text-transform: uppercase;
+    color: #519ad1;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.proj h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.proj p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #939394;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.proj-picture {
+    /* display: flex; */
+   position: relative;
+   left: 4rem;
+   width: 50%;
+}
+
+.projborder-picture {
+    
+        height: 450px;
+        width: 350px;
+        border: 6px solid #519ad1;
+        position: relative;
+        left: -3rem;
+        
+    
+}
+
+.proj-picture img {
+    height: 450px;
+    position: absolute;
+    width: 350px;
+    bottom: 30px;
+    left: -4rem;
+}
+.proj button{
+    height: 45px;
+    width: 180px;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(to right, #4ca8d4, #528bcd,#4c6ac1, #4b51c5, #463eba, #4431af);
+    border: none;
+    cursor: pointer; 
+    color:  rgb(167, 165, 165);
     
 }
 
