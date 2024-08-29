@@ -24,12 +24,12 @@
                 <h1>Fl<span>oxy</span></h1>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">home</a></li>
-                <li><a href="">about me</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">experience</a></li>
-                <button class="contact">contact</button>
+                <li><a href="#index.html">home</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#experience">experience</a></li>
+                <button class="contact"><a href="#contact">contact</a></button>
                 
             </ul>
             
@@ -48,7 +48,7 @@
     </section>
 
         <!------------------- About me -------------->
-        <section class="about">
+        <section class="about" id="about">
             <div class="picture">
                 <div class="border-picture"></div>
                 <img src="./images/profile pic.jpeg" alt="">
@@ -63,7 +63,7 @@
             </div>
         </section>
         <!------------------- Project  ---------------->
-        <section class="projects">
+        <section class="projects" id="projects">
             <h1>projects</h1>
             <div class="each-projects">
                 <div class="proj">
@@ -130,7 +130,7 @@
             </div>
         </section>
         <!------------------- services  ---------------->
-        <section class="service">
+        <section class="service" id="services">
             <h1>services</h1>
             <div class="service-pagelist">
                 <div class="service-list">
@@ -185,8 +185,9 @@
             </div>
            
         </section>
+        <!------------------- experience  ---------------->
 
-        <section class="experience">
+        <section class="experience" id="experience">
             <h1>Experience</h1>
             <div class="experience-info">
                 <div class="expo-image">
@@ -219,6 +220,69 @@
                 </div>
             </div>
         </section>
+
+        <!------------------- footer  ---------------->
+
+
+        <footer>
+            <div class="footer-info" id="contact">
+                <div class="con-text">
+                    <h1>contact</h1>
+                </div>
+                <div class="message-info">
+                    <div class="message-info1">
+                        <div class="messagetext">
+                            <h2>Drop Me a Message</h2>
+                            <p>Interested in collaborating or have a project you'd like to discuss? Feel free to drop me a message.I'd love to explore how we can work together to turn your vision into reality.</p>
+                            <div class="messagetext-icon">
+                                <div class="text-icon">
+                                    <i class="fa fa-phone"></i>
+                                    <h4>+2347066149905</h4>
+                                </div>
+                                <div class="text-icon">
+                                    <i class="fa fa-envelope-o" ></i>
+                                    <h4>onyekao163@gmail.com</h4>
+                                </div>
+                                <div class="text-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                    <h4>Bodija, lagos Nigeria</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-input">
+                            <div class="message-inputbox">
+                                <form action="https://formspree.io/f/xyzgonok" method="POST">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                    <input type="text" name="Email" placeholder="Email" required>
+                                    <textarea name="message" id="" placeholder="Your message here" required></textarea>
+                                    <button type="submit">Send</button>
+                                </form>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="message-info2">
+                        <div class="horizontal"></div>
+                        <div class="last">
+                            <div class="logo">
+                                <h1>Fl<span>oxy</span></h1>
+                            </div>
+                            <h4>&copy; <span id="year">2024</span>  All rights reserved</h4>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/share/QC7mDsbuZauZWSRB/?mibextid=LQQJ4d">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/onyeka-ossai-207729230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">                                
+                                    <i class="fa fa-linkedin"  ></i></a>
+                                    <a href="https://x.com/ossaionyeka9">                               
+                                         <i class="fa fa-twitter" ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         
 
     <script src="./index.js"></script>

@@ -14,3 +14,7 @@ closeIcon.addEventListener('click',()=>{
     menuIcon.style.visibility ="visible";
     closeIcon.style.visibility= 'hidden';
 });
+
+// year
+const currentYear = new Date().getFullYear();
+document.getElementById("year").textContent = currentYear;
